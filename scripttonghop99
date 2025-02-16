@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "baoroblox",
-         Animation = "skibidi"
+         Animation = "skibidi toilet"
          },
         Key = {
         KeySystem = false,
@@ -47,35 +47,42 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "FIX LAG",
+     Name = "FIX LAG CÓ MENU",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
      AddButton(Tab1o, {
-     Name = "SCRIPT",
+     Name = "teddyhubv2",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
   end
   })   AddButton(Tab1o, {
-     Name = "2",
+     Name = "redz",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })   AddButton(Tab1o, {
-     Name = "3",
+     Name = "turbobeta",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/refs/heads/main/Main.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "4",
+     Name = "blueX",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+	  _G.Team = "Pirates" 
+_G.FixLag = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "FIX LAG",
+     Name = "Min BE",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinBE"))()
   end
   })
 ----- Dropdown 
